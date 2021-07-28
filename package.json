@@ -1,6 +1,6 @@
 {
   "name": "react-native-file-logger",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "This module helps us log redux actions into a android/ios file system.",
   "main": "src/index.js",
   "types": "lib",
@@ -9,8 +9,13 @@
     "test": "jest",
     "dev": "npm pack"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react-native",
+    "logging",
+    "redux",
+    "log-redux-actions"
+  ],
+  "author": "Rohit Tyagi",
   "license": "ISC",
   "dependencies": {
     "moment": "^2.29.1",
@@ -38,5 +43,9 @@
     "modulePathIgnorePatterns": [
       "lib"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awesome31/react-native-file-logger"
   }
 }
