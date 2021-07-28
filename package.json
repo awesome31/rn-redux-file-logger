@@ -1,0 +1,42 @@
+{
+  "name": "react-native-file-logger",
+  "version": "1.0.3",
+  "description": "This module helps us log redux actions into a android/ios file system.",
+  "main": "src/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest",
+    "dev": "npm pack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.15",
+    "@types/jest": "^26.0.22",
+    "@types/redux-mock-store": "^1.0.2",
+    "babel-jest": "^26.6.3",
+    "i": "^0.3.6",
+    "jest": "^26.6.3",
+    "npm": "^7.9.0",
+    "react-native-fs": "^2.17.0",
+    "redux-mock-store": "^1.5.4",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "react-native-fs": "*"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "modulePathIgnorePatterns": [
+      "lib"
+    ]
+  }
+}
