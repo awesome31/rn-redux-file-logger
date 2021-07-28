@@ -1,5 +1,5 @@
 {
-  "name": "react-native-file-logger",
+  "name": "rn-redux-file-logger",
   "version": "1.0.0",
   "description": "This module helps us log redux actions into a android/ios file system.",
   "main": "src/index.js",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/awesome31/react-native-file-logger"
+    "url": "https://github.com/awesome31/rn-redux-file-logger"
   }
 }

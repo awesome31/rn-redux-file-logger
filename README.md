@@ -1,4 +1,4 @@
-# REDUX FILE LOGGER
+# REACT NATIVE REDUX FILE LOGGER
 
 ### Introduction
 
