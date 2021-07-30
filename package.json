@@ -1,6 +1,6 @@
 {
   "name": "rn-redux-file-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module helps us log redux actions into a android/ios file system.",
   "main": "src/index.js",
   "types": "lib",
